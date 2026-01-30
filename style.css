@@ -101,7 +101,7 @@ nav a {
     line-height: 56px;
     position: relative;
     top: 30px;
-    margin-left: 140px;
+    left: 40px;
 }
 
 .zxc {
@@ -139,69 +139,101 @@ section{
     color: #593D3D;
     width: 636px;
     position: relative;
-    margin-left: 400px;
+    margin-top: 20px;
+    margin-left: 333px;
     bottom: 43px;
 }
 .content h1{
+    margin-top: 20px;
     font-size: 48px;
     font-weight: 500px;
     line-height: 100%;
 }
 
-.iop{
-    margin-left: 100px;
-    font-weight: 500;
+.contentt{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.contentt p{
+    color: #593D3D;
+    width: 636px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 333px;
+    bottom: 43px;
+}
+.contentt h1{
+    margin-top: 20px;
     font-size: 48px;
+    font-weight: 500px;
+    line-height: 100%;
+}
+.cardss-1 p{
+    color: #583101;
+    margin-top: 50px;
+    margin-left: -0px;
+}
 
+.cardss-1 h3{
+    margin-top: -30px;
+    margin-left: -0px;
 }
-.jkl{
-    margin-top: -40px;
-    margin-left: 444px;
-    width: 700px;
-    color: #432818;
-}
-.d{
-    width: 416px;
-    height: 598px;
 
+.cardss-1{
+    font-size: small;
 }
-.s{
-     width: 416px;
-    height: 598px;
+
+.cardss-1 button{
+    color: #583101;
+    width: 70px;
+    height: 20px;
 }
-.a{
-     width: 416px;
-    height: 598px;
+
+.cardss-2 p{
+    color: #583101;
+    margin-top: 50px;
+    margin-left: -0px;
 }
-.btn{
-    border:2px solid #795609;
-    color: #795609;
-    margin-top: 20px;
-    width: 100px;
+
+.cardss-2 h3{
+    margin-top: -30px;
+    margin-left: -0px;
 }
-.bnm{
-    display: grid;
+
+.cardss-2{
+    margin-top: -385px;
+    margin-left: 330px;
+    font-size: small;
 }
-.cards{
-    display: flex;
-    gap: 20px;
+
+.cardss-2 button{
+    color: #583101;
+    width: 70px;
+    height: 20px;
 }
-.date{
-    margin-top: 20px;
+
+.cardss-3 p{
+    color: #583101;
+    margin-top: 50px;
+    margin-left: -0px;
 }
-.dfg{
-    margin-top: 20px;
+
+.cardss-3 h3{
+    margin-top: -30px;
+    margin-left: -0px;
 }
-.info{
-    margin-top: 20px;
+
+.cardss-3{
+    margin-top: -385px;
+    margin-left: 650px;
+    font-size: small;
 }
-.footer{
-    display: flex;
-}
-.d,.s,.a{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+
+.cardss-3 button{
+    color: #583101;
+    width: 70px;
+    height: 20px;
 }
 footer{
     display: flex;
@@ -248,11 +280,11 @@ footer{
     color: #F3D5B5;
     list-style: none;
 }
-.footer-li-info{
+.footer-li-1{
     font-weight: 700;
     font-size: 24px;
     padding-bottom: 24px;
 }
 .footer-li{
     padding-top: 8px;   
-}   
+}
