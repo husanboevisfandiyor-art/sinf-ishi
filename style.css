@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eef3fb;
+}
+
+
+header {
+    width: 100%;
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav {
+    margin-left: 200px;
+    display: flex;
+    gap: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #432818;
+    font-size: 15px;
+}
+
+.button-1 {
+    background: #432818;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, 250px);
+    justify-content: center;
+    gap: 15px;
+}
+
+.item {
+    align-items: center;
+}
+
+.item-1 {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./image\ copy.png);
+    border-radius: 20px;
+}
+
+.item-2 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./image\ copy\ 2.png);
+    grid-column: 2 / 4;
+    border-radius: 20px;
+}
+
+.item-3 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-column: 1 / 3;
+    border-radius: 20px;
+    background-image: url(./image\ copy\ 4.png);
+
+}
+
+.item-4 {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./image\ copy\ 3.png);
+    border-radius: 20px;
+}
+
+.asd {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    position: relative;
+    top: 30px;
+    margin-left: 140px;
+}
+
+.zxc {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    font-family: Source Sans Pro;
+    color: #795609;
+    width: 636px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 550px;
+    position: relative;
+    bottom: 60px;
+}
+
+.qwe {
+    margin-left: 150px;
+    width: 900px;
+    height: 330px;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    margin-top: 150px;
+}
+
+.content{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.content p{
+    color: #593D3D;
+    width: 636px;
+    position: relative;
+    margin-left: 400px;
+    bottom: 43px;
+}
+.content h1{
+    font-size: 48px;
+    font-weight: 500px;
+    line-height: 100%;
+}
+
+.iop{
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 48px;
+
+}
+.jkl{
+    margin-top: -40px;
+    margin-left: 444px;
+    width: 700px;
+    color: #432818;
+}
+.d{
+    width: 416px;
+    height: 598px;
+
+}
+.s{
+     width: 416px;
+    height: 598px;
+}
+.a{
+     width: 416px;
+    height: 598px;
+}
+.btn{
+    border:2px solid #795609;
+    color: #795609;
+    margin-top: 20px;
+    width: 100px;
+}
+.bnm{
+    display: grid;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.date{
+    margin-top: 20px;
+}
+.dfg{
+    margin-top: 20px;
+}
+.info{
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+}
+.d,.s,.a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+    height: 365px;
+    padding-top: 88px;
+    padding-left: 115px;
+    background-color: #432818;
+}
+.footer-p{
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F3D5B5;
+}
+.footer-h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #F3D5B5;
+}
+.footer-p-2{
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F3D5B5;
+}
+.footer-h1-2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #F3D5B5;
+}
+.icon-div{
+    padding-top: 32px;
+    font-size: 32px;
+}
+.footer-div-3{
+    padding-left: 50px;
+}
+.footer-ul{
+    padding-left: 100px;
+    color: #F3D5B5;
+    list-style: none;
+}
+.footer-li-info{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+.footer-li{
+    padding-top: 8px;   
+}   
